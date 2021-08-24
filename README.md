@@ -13,3 +13,9 @@ require'lspconfig'.elixirls.setup{
 }
 
 verify all works with <space> th for theme or :Rg <anything> for search with fzf
+  
+If you want to have go_to_definition feature, on debian
+sudo apt-get install ctags
+
+On the desired repository -> ctags -R .
+Ctrl-] to go on definition and Ctrl-t to come back
